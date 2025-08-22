@@ -1,0 +1,187 @@
+ html {
+scroll-behavior: smooth;
+ }
+ .my-work {
+            /* font-size: 18px;
+            color:gold;
+            background:  rgba(0, 0, 0, 0.842) ; margin: auto;
+            padding: 5px;
+            text-align: center;
+            border: solid  gold 4px;
+            text-decoration: underline;
+            border-radius: 60px;
+            margin-bottom: 20px; */
+            text-align: center;
+            margin-top: 50px;
+            font-size: 20px;
+            font-weight: bolder;
+            color: rgb(75, 75, 75);
+            border-top: 2px solid  rgb(165, 173, 182)  ; 
+            padding-top: 35px;
+            
+            border-width: 0.5px ;
+    
+            
+
+         }
+         .hero{
+        border-top: solid 0.5px  rgb(165, 173, 182)  ;
+        margin-top:0px;
+        padding-top: 10px;
+        text-align: center; 
+        /* align-items: center;
+        justify-content: center; */
+        font-size: 20px;
+        width: 600px;
+        margin-left: 350px;
+
+         }
+    
+    .my-pc {
+        font-size: 30px;
+        color: black;
+        text-decoration: underline gold ; 
+        
+        }
+
+    .my-car {
+        font-size: 20px;
+        margin: auto 20px;
+        
+    }
+
+    .features {
+        font: size 5px;
+        margin: auto 20px;
+    }
+
+    .html {
+        text-align: center;
+        color: rgb(189, 147, 9);
+        background: black ;width: 500px; margin: auto;
+        padding: 20px;
+        border: solid gold 4px;
+        border-radius: 90px;
+        text-decoration: underline ;
+         }
+
+.nav { 
+    background-color: rgba(226, 226, 226, 0.842);  
+    
+    /* text-align: center; */
+    margin-top: 30px;
+    margin-bottom: 30px;
+    border:  gold 3px solid ;
+    border-radius: 90px;
+    display: flex;
+     justify-content: space-between;
+     align-items: center;
+     padding: 5px 15px;
+     height:60px;
+     border-radius: 100px;
+     
+    
+    
+}
+
+    ul{
+        margin: 0px;
+        padding: 0px;
+    
+    }
+
+  a { 
+    display: inline;
+    font-size: larger;
+    color: black;
+    margin: 0 10px;
+}
+   
+   .nav-item:hover{ 
+    cursor: pointer;
+    color: gold;
+
+    }
+
+    
+
+    /* .box {
+      width: 100%;
+      height: auto;
+      border: 2px solid black;
+     box-shadow: 20px; 
+     background-color: rgb(226, 226, 226);
+     border-radius: 20px;
+    box-shadow: 0px 0px 10px black;
+    max-width: fit-content; */
+    
+      
+    
+ 
+
+    video{
+        width: 500px;
+        height: 300px;
+        margin: 0 400px ;
+        box-shadow: 3px 3px 30px goldenrod;
+        border: 5px solid goldenrod;
+    }
+    
+ /* .grid-image{
+    display: flex;
+    height: 300px;
+    gap: 20px;
+}
+ img{
+    margin: 30px;
+    box-shadow: 3px 3px 30px goldenrod ;
+      border:3px solid goldenrod; */
+     /* } */
+     .form{
+        margin: 0 100px;
+        padding: 10px;
+        padding-left: 10px;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        
+     } 
+     .card{
+        border: 3px solid rgb(165, 173, 182);
+        width: 300px; 
+        margin: 50px;
+        padding: 40px;
+        padding-top: 10px;
+        gap: 300px;
+        text-align: center;
+        transition: all ease 0.3s;
+        /* flex-wrap: wrap;
+        box-sizing: border-box; */
+        
+
+    }
+    .img {
+        width: 200px;
+        height: 150px ;
+        box-shadow: 0 0 10px gold ;
+        border: 2px solid gold;
+        
+
+    }  
+    .cards{
+        display: flex;
+        border-top: 1px solid  rgb(165, 173, 182);
+        justify-content: center;
+        gap: 30px;
+        font-size: 14px;
+        
+        
+        
+
+    }
+    .card:hover{
+        cursor: pointer;
+       transform: scale(1.1);
+    }
+    
+     
